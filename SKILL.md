@@ -1,6 +1,6 @@
 ---
 name: "outcome-reconciler"
-description: "Check the actual requested delivery outcome against observable acceptance criteria, distinguishing completed steps from incomplete or unverified results."
+description: "Use when reporting completion or resuming multi-step work whose requested outcome needs observable verification. Check the actual requested delivery outcome against observable acceptance criteria, distinguishing completed steps from incomplete or unverified results."
 ---
 
 # Outcome Reconciler
@@ -8,6 +8,12 @@ description: "Check the actual requested delivery outcome against observable acc
 Check the requested outcome against evidence of the current state.
 
 Use this before reporting completion of a multi-step task or resuming work with an unclear final state. Keep checks proportional to the request.
+
+## When to apply this workflow
+
+Use when reporting completion or resuming multi-step work whose requested outcome needs observable verification. If the host makes this skill available, use it for matching work without waiting for a tag.
+
+Before claiming completion or taking a next step that depends on completion, report which criteria are verified, incomplete, blocked, or not checked, and cite the available evidence. Continue authorized work that does not depend on the unresolved result.
 
 ## Define the delivery boundary
 
